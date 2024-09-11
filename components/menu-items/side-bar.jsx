@@ -1,6 +1,6 @@
 'use client';
 import React,{useState} from 'react';
-import Home from './Home';
+import Home from './home';
 import Pages from './pages';
 import Products from './products';
 import Blog from './blog';

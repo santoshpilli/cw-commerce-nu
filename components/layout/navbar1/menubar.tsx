@@ -1,4 +1,4 @@
-import Home from '../../menu-items/Home'
+import Home from '../../menu-items/home'
 import Products from '../../menu-items/products'
 import Pages from '../../menu-items/pages'
 import Blog from '../../menu-items/blog'

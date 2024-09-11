@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+.heading-color{
+  color: rgba(12, 23, 58, 1);
+}
+.bg-custom-color{
+  background-color: rgba(146, 144, 152, 0.15);
+} 
+.bg-custom-color-btn {
+  background-color: rgba(12, 23, 58, 1);
+}
+.color-menu-headings {
+  color: rgba(16, 24, 40, 1);
+}
+.bg-custom-color-heading {
+  color: rgba(16, 24, 40, 1);
+}
+
+.bg-custom-color-facebook-icon {
+  background-color: rgba(68, 96, 160, 1);
+}
+.color-google-btn {
+  color:rgba(15, 7, 24, 1)
+}
+.border-custom {
+  border: 1px solid rgba(146, 144, 152, 0.5);
+}
+
+.bg-custom-color-twitter-icon {
+  background-color: rgba(0, 170, 236, 1)
+}
+
+.color-remember-checkbox {
+  color: rgba(146, 144, 152, 1);
+}
+.bg-custom-login-btn {
+  background-color: rgba(12, 23, 58, 1);
+}
+@media (max-width: 320px) {
+  .text-xxs{
+    font-size: 0.675rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading='lazy'] {
+    clip-path: inset(0.6px);
+  }
+}
+
+a,
+button {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:focus-visible:ring-neutral-600 dark:focus-visible:ring-offset-neutral-900;
+}
